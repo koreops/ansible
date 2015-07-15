@@ -1,1 +1,3 @@
-#Setup django project her#Setup django project heree
+#Setup django project her#Setup django project here
+
+# look into fabric and boto for python

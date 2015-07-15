@@ -1,0 +1,20 @@
+---
+project_name: anmolb.com
+project_root: /var/www/anmolb.com
+project_repo: git@github.com:koreops/anmolb.com.git
+system_packages:
+  - build-essential
+  - git
+  - libevent-dev
+  - nginx
+  - postgresql
+  - postgresql-server-dev-all
+  - python-dev
+  - python-setuptools
+  - redis-server
+  - postfix
+python_packages:
+  - pip
+  - virtualenv
+initfiles:
+  - gunicorn
